@@ -1,7 +1,7 @@
 version: "3"
 services:
   grs:
-    image: github-readme-stats:latest
+    image: danonline/github-readme-stats:latest
     container_name: grs
     environment:
       PAT_1: ghp_**** # Replace with your personal access token, see README.md for more info
